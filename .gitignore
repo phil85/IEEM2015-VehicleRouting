@@ -1,11 +1,11 @@
 #######################################
 # Data folders                        #
 #######################################
-processedData/
-unprocessedData/
-configurations/
-testing_results/
-tuning_results/
+backup/
+data/
+output/
+results/
+script/
 
 #######################################
 # OS / MATLAB files	                  #
