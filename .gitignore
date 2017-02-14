@@ -1,0 +1,42 @@
+#######################################
+# Data folders                        #
+#######################################
+processedData/
+unprocessedData/
+configurations/
+testing_results/
+tuning_results/
+
+#######################################
+# OS / MATLAB files	                  #
+#######################################
+desktop.ini
+
+#######################################
+# Filetypes	                          #
+#######################################
+*.asv
+*.txt
+*.mexw64
+*.pdb
+*.png
+*.mat
+*.pdf
+*.eps
+*.tex
+*.exe
+*.zip
+*.pptx
+*.aux
+*.dvi
+*.log
+*.synctex
+*.bak
+*.xlsx
+*.out
+*.exe
+*.lic
+*.dll
+*.dat
+*.sw
+*.bat
