@@ -104,7 +104,8 @@ for i=1:size(reqPasses,1)
 %           b = U(i,j-1); 
 %        end
 %        U(i,j) = 0 + b*rand(1);
-        U(i,j) = 1-0.5^j;
+%        U(i,j) = 1-0.5^j;
+        U(i,j) = 0.5^j;
    end
 end
 

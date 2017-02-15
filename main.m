@@ -92,7 +92,7 @@ clear
 
 % Initialize experiment
 budgets = [10,50];
-timeLim = 5;
+timeLim = 600;
 max_re = [5,15];
 alpha = [0.5,0.9];
 c_bar = [1,3];
@@ -113,7 +113,7 @@ for re=max_re
 %             E = E.solveExactly('myRevisedModel',budgets,'greedyMode');  
 
             % Apply heuristic
-            E = E.solveHeuristically('revisedHeuristic3',budgets); 
+%             E = E.solveHeuristically('revisedHeuristic3',budgets); 
 
             % Generage plots
 %             E.plotBudgetVsUtility();
